@@ -1,16 +1,15 @@
-class Persona{
-    nombre="Alejandro";
-    ocupacion="Programador";
-    edad=31;
-    lugar_de_partida="Sevilla";
+let persona={
+    nombre:"Alejandro",
+    ocupacion:"Programador",
+    edad:31,
+    lugar_de_partida:"Sevilla",
 }
-Persona=new Persona();
+persona.saludar = function() {
+    console.log("hola me llamo "+persona.nombre+ " y tengo "+persona.edad+" años. Mi ocupación es como "+persona.ocupacion
+    +" y vivo en "+persona.lugar_de_partida);
+  };
 
-function saludo(){
-    return "hola me llamo "+Persona.nombre+ " y tengo "+Persona.edad+" años. Mi ocupación es como "+Persona.ocupacion
-    +" y vivo en "+Persona.lugar_de_partida;
-}
-console.log(saludo());
+persona.saludar();
 
 
 

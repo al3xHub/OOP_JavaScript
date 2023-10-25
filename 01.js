@@ -1,8 +1,9 @@
-class Persona{
-    nombre="Alejandro";
-    ocupacion="Programador";
-    edad=40;
-    lugar_de_partida="Sevilla";
+
+let persona={
+    nombre:"Alejandro",
+    ocupacion:"Programador",
+    edad:140,
+    lugar_de_partida:"Sevilla",
 }
-Persona=new Persona();
-console.log(Persona.nombre);
+
+console.log(persona.nombre);
